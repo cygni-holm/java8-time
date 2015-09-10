@@ -1,12 +1,15 @@
 package se.cygni.calendar;
 
+import java.time.Duration;
+import java.time.Period;
 import java.time.ZonedDateTime;
-import java.util.Arrays;
 import java.util.List;
 
 public class Appointment extends BasicActivityTemplate {
     private ZonedDateTime start;
     private ZonedDateTime end;
+    
+    
 
     public ZonedDateTime getStart() {
         return start;
@@ -25,7 +28,7 @@ public class Appointment extends BasicActivityTemplate {
     }
 
     public List<Activity> getActivities(ZonedDateTime now, ZonedDateTime calStart, ZonedDateTime calEnd) {
-        return null;
+    	
     }
 
     @Override
